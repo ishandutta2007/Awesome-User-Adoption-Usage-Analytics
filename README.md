@@ -1,249 +1,124 @@
-# Awesome-User-Adoption-Usage-Analytics
-
-## Top User Adoption & Usage Analytics Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Product Analytics, In-App Guidance & Self-Hosted Adoption Platforms*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial user adoption and usage analytics platforms** and **open-source projects** that measure feature adoption, analyze user behavior, and guide users through product onboarding — from enterprise Digital Adoption Platforms (DAP) to self-hosted product analytics engines.
-
-
-
-**Examples** include Salesforce Lightning Usage App, Pendo, WalkMe, Whatfix, Appcues, Gainsight PX, Userpilot, Mixpanel, Amplitude, and PostHog (the category leaders).
-
-
-
-**Open-source emphasis**: User adoption and usage analytics is one of the strongest open-source domains. **PostHog** leads with 20,000+ GitHub stars as the most complete open-source product analytics platform — combining event tracking, funnels, session replay, feature flags, A/B testing, and surveys in one deployable stack . **Matomo** delivers privacy-first web analytics with heatmaps and session recording . **Umami** and **Plausible** provide lightweight, privacy-focused alternatives . **OpenReplay** offers open-source session replay with co-browsing . **Jitsu** handles event data pipelines . On the adoption guidance side, **Driver.js**, **Intro.js**, and **Shepherd.js** power open-source product tours. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Pendo](https://www.pendo.io/)**  
-
-  **Product analytics-first platform with in-app guides** — combines usage analytics, NPS, user segmentation, and in-app guidance in one tool . **Free tier for up to 500 monthly active users** . **Best for product teams wanting both analytics and guidance** .
-
-
-
-- **[WalkMe](https://www.walkme.com/)**  
-
-  **The pioneer and market leader in Digital Adoption Platforms (DAP)** — enterprise-grade platform covering employee onboarding, customer onboarding, process automation, and analytics . **Pricing starts at ~$1,500/month for Growth tier**; enterprise deployments reach $30K+ annually . **Best for enterprise DAP deployments** .
-
-
-
-- **[Whatfix](https://whatfix.com/)**  
-
-  **Enterprise DAP known for ease of use and on-demand support widgets** — strong for Salesforce, SuccessFactors, ServiceNow, and Oracle deployments . **Offers on-premise deployment for data sovereignty requirements** . **Best for enterprise application adoption** .
-
-
-
-- **[Appcues](https://www.appcues.com/)**  
-
-  **Product-led growth platform with no-code onboarding flows** — in-app messaging, NPS, and mobile SDKs . **Best for SaaS companies wanting self-serve onboarding** .
-
-
-
-- **[Gainsight PX](https://www.gainsight.com/product-experience/)**  
-
-  **Product experience platform** — product analytics with in-app engagement and customer success integration . **Best for customer success teams** .
-
-
-
-- **[Userpilot](https://userpilot.com/)**  
-
-  **Product growth platform with onboarding checklists and feature adoption analytics** — popular with B2B SaaS companies . **Best for mid-market SaaS** .
-
-
-
-- **[Mixpanel](https://mixpanel.com/)**  
-
-  **Product analytics platform** — event-based analytics with funnels, retention, and user profiles . **Best for product analytics at scale** .
-
-
-
-- **[Amplitude](https://amplitude.com/)**  
-
-  **Digital analytics platform** — product analytics with experimentation and personalization . **Best for enterprise product analytics** .
-
-
-
-- **[Salesforce Lightning Usage App](https://www.salesforce.com/)**  
-
-  **Salesforce's native usage analytics** — tracks Lightning Experience adoption and user activity within Salesforce . **Best for Salesforce customers** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Product Analytics Platforms
-
-
-
-- **[PostHog](https://github.com/PostHog/posthog)**  
-
-  **The most complete open-source product analytics platform**, MIT licensed with **20,000+ GitHub stars** . **Six products in one deployable stack**: Product Analytics (events, funnels, retention, paths), Session Replay, Feature Flags, A/B Testing (experiments), Surveys, and Data Warehouse . **Self-hosted or cloud** — full data ownership . **Product-led growth focus** — built for startups and scale-ups wanting to understand user behavior without vendor lock-in . **The de facto open-source Amplitude/Mixpanel alternative** . **Best for comprehensive product analytics** .
-
-
-
-- **[Matomo](https://github.com/matomo-org/matomo)**  
-
-  **Open-source web analytics platform**, GPL-3.0 licensed with **20,000+ GitHub stars** . **Full-featured with session recording, heatmaps, A/B testing, and funnels** . **Privacy-focused with GDPR compliance** . **Self-hosted or cloud** . **The most established open-source Google Analytics alternative** . **Best for comprehensive analytics with privacy** .
-
-
-
-- **[Plausible](https://github.com/plausible/analytics)**  
-
-  **Lightweight and privacy-friendly analytics**, AGPL-3.0 licensed . **No cookies, no tracking, GDPR compliant by design** . **Simple, fast, and clean interface** . **Self-hosted or cloud** . **Best for simple, privacy-first analytics** .
-
-
-
-- **[Umami](https://github.com/umami-software/umami)**  
-
-  **Privacy-friendly analytics**, MIT licensed with **25,000+ GitHub stars** . **Simple, fast, and privacy-focused** . **Self-hosted with Docker** . **Best for lightweight analytics** .
-
-
-
-- **[Countly](https://github.com/Countly/countly-server)**  
-
-  **Product analytics platform**, GPL-3.0 licensed . **Mobile and web analytics with push notifications, crash reporting, and A/B testing** . **Self-hosted or cloud** . **Best for mobile app analytics** .
-
-
-
-### Session Replay & Behavioral Analytics
-
-
-
-- **[OpenReplay](https://github.com/openreplay/openreplay)**  
-
-  **Open-source session replay**, AGPL-3.0 licensed with **10,000+ GitHub stars** . **Session replay, co-browsing, and dev tools** . **Self-hosted or cloud** . **The leading open-source LogRocket alternative** . **Best for session replay and debugging** .
-
-
-
-- **[Jitsu](https://github.com/jitsucom/jitsu)**  
-
-  **Open-source data collection platform**, MIT licensed with **3,500+ GitHub stars** . **Collect event data and send to any destination** — databases, warehouses, and APIs . **Segment alternative** . **Best for event data pipelines** .
-
-
-
-- **[Matomo Heatmaps](https://github.com/matomo-org/matomo)** — Already listed. **Heatmaps and session recording included** .
-
-
-
-### In-App Guidance & Product Tours
-
-
-
-- **[Driver.js](https://github.com/kamranahmedse/driver.js)**  
-
-  **Lightweight product tours and feature highlighting library**, MIT licensed with **26,300+ GitHub stars** . **Only 3KB gzipped** — the most lightweight tour library . **Used by Red Hat, GitKraken, and Fiverr** . **Best for simple feature highlighting** .
-
-
-
-- **[Intro.js](https://github.com/usablica/intro.js)**  
-
-  **The veteran product tour library**, AGPL-3.0 licensed with **8KB gzipped** . **Uses `data-intro` and `data-title` HTML attributes** . **Commercial license at $9.99/site** . **Best for jQuery-era applications** .
-
-
-
-- **[Shepherd.js](https://github.com/shipshapecode/shepherd)**  
-
-  **Framework-agnostic tour library**, AGPL-3.0 licensed with **12,600+ GitHub stars** . **Clean imperative API with excellent scrolling and positioning** . **Commercial license at $50 lifetime for up to 5 projects** . **Best for framework-agnostic tours** .
-
-
-
-- **[React Joyride](https://github.com/gilbarbara/react-joyride)**  
-
-  **The most widely installed React tour library**, MIT licensed with **603K weekly npm downloads** . **603K weekly downloads** . **Best for quick prototypes and legacy React codebases** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Tour Kit** — Headless product tours with composable packages, under 8KB core, MIT licensed (Pro: $99 one-time) .
-
-- **Onboarding (react-onboarding)** — Logic-focused onboarding library for React .
-
-- **Sessions Health** — Cloud-based free EHR with mental health workflows (different domain) .
-
-- **Google Analytics 4** — Free with data sampling and limited ownership (not open-source) .
-
-- **Countly** — Product analytics with push and crash reporting .
-
-
-
-**Frameworks for building custom user adoption and usage analytics solutions**: Combine **PostHog** for comprehensive product analytics with session replay, feature flags, and A/B testing . Use **Matomo** for web analytics with heatmaps and privacy compliance . Deploy **OpenReplay** for session replay and debugging . Integrate **Driver.js** or **Shepherd.js** for product tours and in-app guidance . Choose **Jitsu** for event data pipelines . Use **Plausible** or **Umami** for lightweight privacy-first analytics . Note that true enterprise Digital Adoption Platforms with process automation, employee training, and SOC 2 compliance (WalkMe, Whatfix) remain primarily commercial territory; open-source stacks provide strong product analytics, session replay, and tour guidance foundations that require integration for complete user adoption analytics.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- User adoption platforms handle sensitive user behavior data and may process PII. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations (GDPR, CCPA).
-
-- **Session replay raises privacy concerns** — ensure proper consent, mask sensitive data, and comply with privacy regulations. PostHog and OpenReplay provide masking options .
-
-- **License considerations**: PostHog uses MIT, Matomo uses GPL-3.0, Plausible uses AGPL-3.0, Umami uses MIT, and Intro.js/Shepherd.js use AGPL-3.0 . Verify licensing against your use case before committing.
-
-- **Product analytics requires instrumentation** — events must be defined and tracked properly to yield meaningful insights. Poor event design leads to data quality issues .
-
-- The open-source ecosystem provides strong product analytics, session replay, and tour guidance foundations, but **enterprise DAP with process automation and compliance certifications** remain primarily commercial offerings.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome User Adoption & Usage Analytics Banner" width="100%">
+</p>
+
+# 🚀 Awesome User Adoption & Usage Analytics 📊
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
+> **A curated, SEO-optimized list of top commercial SaaS Digital Adoption Platforms (DAP), in-app onboarding tools, self-hosted product analytics engines, and open-source product tour libraries.** 🌟
 
 ---
 
+## 📈 Market Overview & Dynamics
 
+> 💡 **Estimated Market Size & Fragmentation:**  
+> The global Digital Adoption Platform (DAP) and Product Analytics market is estimated at **$3.5B – $4.2B+** in 2026 and is projected to exceed **$8B+ by 2030**. The sector is **moderately fragmented**: enterprise DAP is consolidated among major players (SAP WalkMe, Whatfix, Gainsight), while self-serve product analytics and open-source alternatives (PostHog, Amplitude, Mixpanel, Matomo) drive intense competition across mid-market and developer-led segments.
 
-**Made for product managers, UX teams, and organizations seeking user adoption analytics sovereignty.**  
+---
 
-Let's make user adoption and usage analytics more open, transparent, and user-centric.
+## 📑 Table of Contents
+
+- [🏢 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Architectural Patterns: Combining Open-Source Tools](#️-architectural-patterns-combining-open-source-tools)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 🏢 SaaS / Hosted Platforms
+
+| Product 🛠️ | Enterprise Size / Valuation / Revenue 💰 | Starting Paid Price 🏷️ | Free Tier / Trial Limit 🎁 | Key Focus & Best For 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Salesforce Lightning Usage App](https://www.salesforce.com/)** | **~$248B–$320B Market Cap** (~$35B+ Revenue) | Included with Salesforce subscription | Included natively with Salesforce org (No separate free plan needed) | Native usage analytics tracking Lightning Experience adoption and user activity inside Salesforce. |
+| **[Pendo](https://www.pendo.io/)** | **$2.6B Valuation** (~$200M+ ARR) | Custom / ~$7,000/yr (Starter tier) | **Free forever up to 500 MAUs** (also offers 30-day full trial) | Combines product analytics, session replay, in-app guides, and NPS in one unified platform. |
+| **[Amplitude](https://amplitude.com/)** | **~$1.55B Market Cap** (~$343M Revenue) | $0 (First 2M events free, then Plus tier scales with usage) | **Free forever up to 2 Million events/month** | Enterprise digital analytics platform with behavioral funnels, retention, and experimentation. |
+| **[WalkMe](https://www.walkme.com/)** | **$1.5B Acquisition Value (by SAP)** (~$280M Revenue) | ~$1,200–$1,500/month (~$14,400/yr) | **No free plan** (Offers 30-day trial for WalkMe Learning Arc module only) | Enterprise pioneer in Digital Adoption Platforms (DAP) for employee & customer onboarding automation. |
+| **[Mixpanel](https://mixpanel.com/)** | **$1.1B Valuation** (~$210M Revenue) | ~$28/month (Growth tier) | **Free forever up to 1 Million events/month** | Event-based product analytics platform specializing in interactive funnels and user retention cohorts. |
+| **[Gainsight PX](https://www.gainsight.com/product-experience/)** | **$1.1B Acquisition Value (by Vista)** (~$200M Revenue) | Custom quote (Enterprise engagements start ~$30K/yr) | **No permanent free plan** (Offers a 30-day free trial) | Product experience platform combining product usage tracking with customer success workflows. |
+| **[Whatfix](https://whatfix.com/)** | **$900M Valuation** (~$138M Revenue) | Custom quote (~$1,000–$1,200/month starting) | **No free plan / self-serve trial** (Provides scoped Proof-of-Concept on request) | Enterprise DAP with on-demand support widgets and strong integrations with Salesforce and ServiceNow. |
+| **[Appcues](https://www.appcues.com/)** | **~$200M–$300M Valuation** (~$16.7M Revenue) | $249/month (Essentials tier, billed annually) | **No permanent free plan** (Offers a 14-day full feature free trial) | Product-led growth platform for non-technical teams to build no-code onboarding flows and tours. |
+| **[Userpilot](https://userpilot.com/)** | **~$30M–$50M Valuation** (~$9.5M–$25M Revenue) | $249/month (Starter tier, billed annually) | **No permanent free plan** (Offers a 14-day free trial) | Product growth platform featuring onboarding checklists, feature adoption tracking, and in-app surveys. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+*Sorted by GitHub Star count in descending order.* 🌟
+
+| Project 📦 | License 📜 | GitHub Stars ⭐ | Description & Best For 💡 |
+| :--- | :--- | :--- | :--- |
+| **[PostHog](https://github.com/PostHog/posthog)** | MIT | [![GitHub Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) | **The all-in-one open-source product analytics suite**. Combines product analytics (events, funnels, retention), session replay, feature flags, A/B testing, surveys, and data warehouse in one stack. De facto open-source Amplitude alternative. |
+| **[Umami](https://github.com/umami-software/umami)** | MIT | [![GitHub Stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers) | **Fast, privacy-focused web analytics**. Simple self-hosted solution collecting core usage statistics without cookies or invasive user tracking. |
+| **[Plausible](https://github.com/plausible/analytics)** | AGPL-3.0 | [![GitHub Stars](https://img.shields.io/github/stars/plausible/analytics?style=social&color=white)](https://github.com/plausible/analytics/stargazers) | **Lightweight and privacy-friendly web analytics**. Open-source Google Analytics alternative with lightweight script (<1KB) and clean dashboard UI. |
+| **[Driver.js](https://github.com/kamranahmedse/driver.js)** | MIT | [![GitHub Stars](https://img.shields.io/github/stars/kamranahmedse/driver.js?style=social&color=white)](https://github.com/kamranahmedse/driver.js/stargazers) | **Lightweight vanilla JavaScript product tour engine** (~3KB gzipped). Drives user focus across page elements for step-by-step feature onboarding and popover tours. |
+| **[Intro.js](https://github.com/usablica/intro.js)** | AGPL-3.0 / Commercial | [![GitHub Stars](https://img.shields.io/github/stars/usablica/intro.js?style=social&color=white)](https://github.com/usablica/intro.js/stargazers) | **Veteran step-by-step user onboarding and tour library**. Uses `data-intro` attributes to easily annotate elements for guided product tours. |
+| **[Matomo](https://github.com/matomo-org/matomo)** | GPL-3.0 | [![GitHub Stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers) | **Comprehensive open-source web & product analytics platform** (formerly Piwik). Features session recording, heatmaps, A/B testing, and full GDPR privacy compliance. |
+| **[Shepherd.js](https://github.com/shipshapecode/shepherd)** | MIT | [![GitHub Stars](https://img.shields.io/github/stars/shipshapecode/shepherd?style=social&color=white)](https://github.com/shipshapecode/shepherd/stargazers) | **Framework-agnostic guided tour library**. Built with Floating UI for smooth popover positioning across React, Vue, Angular, and Ember apps. |
+| **[OpenReplay](https://github.com/openreplay/openreplay)** | AGPL-3.0 | [![GitHub Stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers) | **Self-hosted session replay and UX debugging platform**. Replays user sessions alongside network logs, console errors, and state changes. Open-source LogRocket alternative. |
+| **[React Joyride](https://github.com/gilbarbara/react-joyride)** | MIT | [![GitHub Stars](https://img.shields.io/github/stars/gilbarbara/react-joyride?style=social&color=white)](https://github.com/gilbarbara/react-joyride/stargazers) | **Popular React guided tour component**. Create customizable walkthroughs and guided tours for React web applications. |
+| **[Countly](https://github.com/Countly/countly-server)** | GPL-3.0 | [![GitHub Stars](https://img.shields.io/github/stars/Countly/countly-server?style=social&color=white)](https://github.com/Countly/countly-server/stargazers) | **Product analytics for mobile, web, and desktop apps**. Tracks active users, retention, push notifications, and crash reports. |
+| **[Jitsu](https://github.com/jitsucom/jitsu)** | MIT | [![GitHub Stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers) | **Open-source event data collection platform**. Streams analytics events to data warehouses (ClickHouse, Snowflake, Postgres) and APIs. Segment alternative. |
+| **[Reactour](https://github.com/elrumordelaluz/reactour)** | MIT | [![GitHub Stars](https://img.shields.io/github/stars/elrumordelaluz/reactour?style=social&color=white)](https://github.com/elrumordelaluz/reactour/stargazers) | **Flexible React tour library**. Provides customizable tooltips and spotlight overlays to walk users through React interfaces. |
+| **[Tour Kit](https://github.com/domidex01/tour-kit)** | BSL-1.1 / MIT Core | [![GitHub Stars](https://img.shields.io/github/stars/domidex01/tour-kit?style=social&color=white)](https://github.com/domidex01/tour-kit/stargazers) | **Headless product tours and onboarding framework for React**. Composable packages supporting custom UI components, checklists, and accessibility. |
+
+---
+
+## 🏗️ Architectural Patterns: Combining Open-Source Tools
+
+For engineering and product teams building self-hosted user adoption and analytics stacks, common open-source component combinations include:
+
+* 📊 **Product Analytics + Session Replay**: Deploy **PostHog** for full-stack event tracking, session replay, and feature flagging, or pair **Matomo** / **Plausible** (analytics) with **OpenReplay** (session recording).
+* 💡 **In-App Guidance & Product Tours**: Use **Driver.js** or **Shepherd.js** for lightweight popover tours, or **React Joyride** / **Reactour** for React-native user flows.
+* 🔄 **Data Pipeline**: Stream event telemetry via **Jitsu** into ClickHouse or PostgreSQL for custom adoption dashboards.
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing tabular structure).
+3. Include: name, link, 1–2 sentence description, license, and relevant metrics.
+4. Submit PR with a short explanation.
+
+⭐ Star the repo if you find it useful!
+
+---
+
+## ☕ Support & Sponsorship
+
+Thank you for exploring this curated ecosystem list! If you found this list helpful for evaluating user adoption, product analytics, or Digital Adoption Platforms, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork & Share** it with product managers, developers, and UX teams.
+- ☕ **Buy me a coffee / Sponsor** the maintainer to support ongoing curation and open-source research:  
+  [![GitHub Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge&logo=github)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 🌟 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-User-Adoption-Usage-Analytics&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-User-Adoption-Usage-Analytics&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an official endorsement.
+- User adoption platforms handle sensitive user behavior data and may process PII. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations (GDPR, CCPA).
+- **Session replay raises privacy concerns** — ensure proper consent, mask sensitive data, and comply with privacy regulations. PostHog and OpenReplay provide automatic masking options.
+- **License considerations**: PostHog uses MIT, Matomo uses GPL-3.0, Plausible uses AGPL-3.0, Umami uses MIT, Shepherd uses MIT, and Intro.js uses AGPL-3.0 with commercial options. Verify licensing against your organization's legal policies before deploying.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for product managers, UX teams, and organizations seeking user adoption analytics sovereignty.</b><br>
+  <i>Let's make user adoption and usage analytics more open, transparent, and user-centric.</i>
+</p>
